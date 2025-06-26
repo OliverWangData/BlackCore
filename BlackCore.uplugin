@@ -1,0 +1,33 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Black Core",
+	"Description" : "Core functionality library for Black Megacorp",
+	"CreatedBy" : "Black Megacorp",
+	"DocsURL" : "https://github.com/BlackMegacorp/BlackCore",
+	"Category" : "Library",
+	"EnabledByDefault" : true,
+	"CanContainContent" : true,
+	"IsBetaVersion": false,
+	"MarketplaceURL" : "",
+	"SupportURL": "",
+	"Modules": [
+		{
+		  "Name": "BlackCommon",
+		  "Type": "Runtime",
+		  "LoadingPhase": "PreDefault"
+		},
+		{
+		  "Name": "BlackRuntimeResources",
+		  "Type": "Runtime",
+		  "LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "BlackExternal",
+			"Enabled": true
+		}
+	]
+}
